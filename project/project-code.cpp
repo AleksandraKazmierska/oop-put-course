@@ -339,15 +339,3 @@ int main() {
 
     return 0;
 }
-
-int main() {
-    //runTests();
-
-    Menu menu;
-    while (menu.running()) {
-        menu.displayOptions();
-        menu.selectOption();
-    }
-
-    return 0;
-}
